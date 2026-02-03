@@ -42,20 +42,21 @@
     }
 
     .button {
-      display: block;
-      padding: 15px;
-      background-color: #1e90ff;
-      color: white;
-      text-align: center;
-      border-radius: 12px;
-      text-decoration: none;
-      font-size: 1.1rem;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: background-color 0.3s ease;
+    display: inline-block; /* Change 'block' en 'inline-block' pour réduire la largeur */
+    padding: 15px 25px;    /* 15px haut/bas, 25px gauche/droite */
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+    margin: 10px auto;     /* Ajoute de l'espace entre les boutons */
     }
 
     .button:hover {
-      background-color: #0077cc;
+    background-color: #0077cc;
     }
   </style>
 </head>
