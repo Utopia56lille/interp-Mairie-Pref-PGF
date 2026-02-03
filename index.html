@@ -3,180 +3,133 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Interpellez votre maire et la préfecture </title>
+  <title>Interpellez votre maire et la préfecture</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f9f9f9;
       padding: 20px;
       margin: 0;
-      text-align: center;
+      text-align: center; /* Centre tout le contenu (titres et boutons) */
     }
 
     img.logo {
-      max-width: 100px;
-      margin: 0 auto 10px;
+      max-width: 180px;
+      margin: 0 auto 20px;
       display: block;
     }
 
     h1 {
       color: #333;
       font-size: 1.8rem;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
 
     .intro {
       color: #444;
       font-size: 1rem;
-      margin: 0 auto 20px;
-      max-width: 500px;
-      line-height: 1.5;
+      margin: 0 auto 30px;
+      max-width: 700px;
+      line-height: 1.6;
+      text-align: justify; /* Pour un texte d'intro plus propre */
     }
 
     .container {
-      max-width: 500px;
+      max-width: 600px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 10px;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin-top: 25px;
+      margin-bottom: 10px;
+      color: #555;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
     }
 
     .button {
-    display: inline-block; /* Change 'block' en 'inline-block' pour réduire la largeur */
-    padding: 15px 25px;    /* 15px haut/bas, 25px gauche/droite */
-    background-color: #1e90ff;
-    color: white;
-    text-align: center;
-    border-radius: 12px;
-    text-decoration: none;
-    font-size: 1.1rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease;
-    margin: 10px auto;     /* Ajoute de l'espace entre les boutons */
+      display: inline-block;
+      padding: 15px 40px; /* Plus d'espace sur les côtés */
+      background-color: #1e90ff;
+      color: white;
+      text-align: center;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 1.05rem;
+      font-weight: 500;
+      min-width: 300px; /* Garantit une largeur minimale élégante */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      margin: 5px auto;
     }
 
     .button:hover {
-    background-color: #0077cc;
+      background-color: #0077cc;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .button-all {
+      background-color: #e63946; /* Rouge pour le bouton principal */
+    }
+
+    .button-all:hover {
+      background-color: #c1272d;
+    }
+
+    hr {
+      width: 100%;
+      border: 0;
+      height: 1px;
+      background: #ddd;
+      margin: 30px 0;
     }
   </style>
 </head>
 <body>
 
-  <!-- Logo -->
-  <img src="https://utopia56.org/wp-content/uploads/2025/12/Banniere-newsletters-1.png" alt="Logo" class="logo" />
-    <h1>Interpellez votre maire et le préfet</h1>
+  <img src="https://utopia56.org/wp-content/uploads/2025/11/logo-fond-blanc-retina.png" alt="Logo Utopia 56" class="logo" />
+
+  <h1>Interpellez votre maire et le préfet</h1>
 
   <div class="intro">
-   Jusqu’au 4 février 2026, 44 jeunes mineurs en recours sont actuellement mis à l'abri dans un gymnase à Lille Fives et dans une salle des fêtes à Lambersart dans le cadre du Plan Grand Froid. Demain ce dernier s’arrête et ils se retrouveront tous à la rue si aucune solution ne leur est proposée. Cette page vous permet de contacter directement votre maire et la préfecture afin qu'ils agissent pour garantir une mise à l'abri décente des mineurs isolés en recours de Lille . Cliquez sur un des boutons ci-dessous pour ouvrir un e-mail prérempli dans votre messagerie.
+    Jusqu’au 4 février 2026, 44 jeunes mineurs en recours sont actuellement mis à l'abri dans un gymnase à Lille Fives et dans une salle des fêtes à Lambersart dans le cadre du Plan Grand Froid. Demain ce dernier s’arrête et ils se retrouveront tous à la rue si aucune solution ne leur est proposée. 
     <br><br>
-    <strong>Coordonées des élu.es à interpeller :</strong>
-    <ul>
-          <li><strong>Préfecture :</strong><br>
-        Bertrand Gaume (Préfet) – bertrand.gaume@nord.gouv.fr<br>
-        Cabinet du préfet – pref-courrier-webmestre@nord.gouv.fr<br>
-        Paul-Marie Claudon (Préfet délégué égalité des chances) – paul-marie.claudon@nord.gouv.fr
-      </li>
-      <ul>
-      <li><strong>Mairie de Lille :</strong><br>
-        Cabinet du maire – cabcourrier@mairie-lille.fr<br>
-        Arnaud Deslandes (Maire) – adeslandes@mairie-lille.fr
-      </li>
-      <ul>
-<li><strong>Mairie de Lambersart  :</strong><br>
-        Cabinet du maire – mairie@ville-lambersart.fr
-      </li>
-      <ul>
-<li><strong>Mairie de Lomme  :</strong><br>
-        Olivier Caremelle (Maire) – ocaremelle@mairie-lomme.fr,
-      </li>
-      <ul>
-<li><strong>Mairie d'Hellemmes  :</strong><br>
-        Cabinet du maire – cab@mairie-hellemmes.fr
-      </li>
-      <ul>
-<li><strong>Mairie de Villeneuve d’Ascq  :</strong><br>
-        Cabinet du maire – contact@villeneuvedascq.fr,
-      </li>
-    </ul>
-    <br>
-    <strong>Objet :</strong>Alerte urgente – Situation des mineurs isolés après la fin du plan grand froid<br>
-    <strong>Texte du mail :</strong><br>
-    Bonjour,<br><br>
-Je vous envoie ce mail pour vous interpeller sur la situation très préoccupante des mineurs isolés en recours à Lille suite à la fin du plan grand froid.<br><br>
-Aujourd’hui, comme vous le savez surement, 44 jeunes sont actuellement hébergés pour la nuit dans des gymnases à Fives et Lambersart. Cependant avec la fin du plan grand froid, à priori ce mercredi 04 février, ils ne savent pas où ils pourront dormir les jours suivants.<br><br>
-Nous sommes face à une situation inédite et d’une extrême gravité car, en effet, ce serait la première fois en plus de cinq ans que la préfecture et les communes de la métropole lilloise laissent un camp de jeunes mineurs se créer en plein hiver, faute de solution.<br><br>
-De plus, la préfecture laisse planer le doute sur la remise en place ou non du Plan Grand Froid. Chaque semaine, les jeunes se trouvent être dans des situations stressantes et pleines d'incertitudes, ne sachant pas s’ils seront accueillis pour la nuit ou forcés de dormir à la rue depuis des semaines.<br><br>
-Il est tout simplement honteux que ces jeunes soient contraints de dormir dans des tentes en plein hiver, dans le froid et parfois sous la pluie, en sachant que dans nos villes, des bâtiments sont vides et/ou nonutilisés la nuit.<br><br>
-La mairie et la préfecture ont le pouvoir de réquisitionner ces bâtiments vides et je suis dans le regret de constater, que depuis plus d’un mois déjà et malgré de multiples interpellations et alertes, seule une mobilisation citoyenne a permis à ces jeunes de passer l’hiver à l’abri. <br><br>
-À ce jour, ni la préfecture et ni les mairies concernées, n’ont aucune solution pérenne.<br><br>
-Ainsi, je vous exhorte à agir sans délai pour garantir à ces jeunes un hébergement digne et conforme aux lois de la République. Le respect des droits de l’enfant ne peut être une option. Il en va de l’honneur de nos institutions et de la crédibilité de notre engagement en faveur des droits humains.<br><br>
-En vous remerciant pour l’attention portée à cette alerte urgente, je vous prie d’agréer, Madame, Monsieur, l’expression de ma considération respectueuse.
+    Cette page vous permet de contacter directement les maires et la préfecture afin qu'ils agissent pour garantir une mise à l'abri décente. Cliquez sur un des boutons ci-dessous pour ouvrir un e-mail prérempli dans votre messagerie.
   </div>
-  
+
   <div class="container">
-    <div class="section-title">Contacter par mail les élu.es concerné.es</div>
-    <a class="button" href="mailto:bertrand.gaume@nord.gouv.fr,pref-courrier-webmestre@nord.gouv.fr,paul-marie.claudon@nord.gouv.fr,cabcourrier@mairie-lille.fr,adeslandes@mairie-lille.fr,mairie@ville-lambersart.fr,ocaremelle@mairie-lomme.fr,cab@mairie-hellemmes.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Envoyer l'e-mail aux élu.es
+    <div class="section-title">Action prioritaire</div>
+    <a class="button button-all" href="mailto:bertrand.gaume@nord.gouv.fr,pref-courrier-webmestre@nord.gouv.fr,paul-marie.claudon@nord.gouv.fr,cabcourrier@mairie-lille.fr,adeslandes@mairie-lille.fr,mairie@ville-lambersart.fr,ocaremelle@mairie-lomme.fr,cab@mairie-hellemmes.fr,contact@villeneuvedascq.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0A%0AAujourd%E2%80%99hui%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20risquent%20de%20se%20retrouver%20sans%20solution.%0A%0AJe%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.">
+      ✉️ Envoyer l'e-mail à TOUS les élu.es
     </a>
-  </div>
 
-  
-    <div class="section-title">Préfecture</div>
-    <a class="button" href="mailto:bertrand.gaume@nord.gouv.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid%20%C3%A0%20Lille&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Préfet (Bertrand Gaume)
-    </a>
-  </div>
-    <a class="button" href="mailto:pref-courrier-webmestre@nord.gouv.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid%20%C3%A0%20Lille&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Cabinet du préfet
-    </a>
-  </div>
-    <a class="button" href="mailto:paul-marie.claudon@nord.gouv.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid%20%C3%A0%20Lille&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Préfet (Paul-Marie Claudon)
-    </a>
-  </div>
+    <hr>
+
+    <div class="section-title">Préfecture du Nord</div>
+    <a class="button" href="mailto:bertrand.gaume@nord.gouv.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20mineurs%20isol%C3%A9s&body=Bonjour%20Monsieur%20le%20Pr%C3%A9fet%2C...">✉️ Préfet (Bertrand Gaume)</a>
+    <a class="button" href="mailto:pref-courrier-webmestre@nord.gouv.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20mineurs%20isol%C3%A9s&body=Bonjour%2C...">✉️ Cabinet du préfet</a>
+    <a class="button" href="mailto:paul-marie.claudon@nord.gouv.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20mineurs%20isol%C3%A9s&body=Bonjour%2C...">✉️ Préfet délégué (P-M. Claudon)</a>
+
     <div class="section-title">Ville de Lille</div>
-    <a class="button" href="mailto:cabcourrier@mairie-lille.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid%20%C3%A0%20Lille&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Cabinet du maire
-    </a>
-  </div>
-    <a class="button" href="mailto:adeslandes@mairie-lille.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Maire de Lille (Arnaud Deslandes)
-    </a> 
-  </div>
-   
-   <div class="section-title">📎 Communes impliquées</div>
-<div class="sub-list">
-  <ul>
-    <li>Lambersart</li>
-    <div class="section-title"></div>
-    <a class="button" href="mailto:mairie@ville-lambersart.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Mairie de Lambersart 
-    </a>
-  </div>
-        
-    <li>Maire de Lomme</li>
-    <div class="section-title"> </div>
-    <a class="button" href="mailto:ocaremelle@mairie-lomme.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Mairie de Lomme 
-    </a>
-  </div>
-        
- <li>Mairie d’Hellemes</li>
-    <div class="section-title"> </div>
-    <a class="button" href="mailto:cab@mairie-hellemmes.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Mairie d’Hellemes 
-    </a>
+    <a class="button" href="mailto:cabcourrier@mairie-lille.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20mineurs%20isol%C3%A9s&body=Bonjour%2C...">✉️ Cabinet du maire</a>
+    <a class="button" href="mailto:adeslandes@mairie-lille.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20mineurs%20isol%C3%A9s&body=Bonjour%20Monsieur%20Deslandes%2C...">✉️ Arnaud Deslandes</a>
+
+    <div class="section-title">Autres communes</div>
+    <a class="button" href="mailto:mairie@ville-lambersart.fr?subject=Alerte%20urgente&body=Bonjour...">✉️ Mairie de Lambersart</a>
+    <a class="button" href="mailto:ocaremelle@mairie-lomme.fr?subject=Alerte%20urgente&body=Bonjour...">✉️ Mairie de Lomme</a>
+    <a class="button" href="mailto:cab@mairie-hellemmes.fr?subject=Alerte%20urgente&body=Bonjour...">✉️ Mairie d'Hellemmes</a>
+    <a class="button" href="mailto:contact@villeneuvedascq.fr?subject=Alerte%20urgente&body=Bonjour...">✉️ Mairie de Villeneuve d'Ascq</a>
   </div>
 
-    <li>Mairie de Villeneuve d'Ascq </li>
-    <div class="section-title"></div>
-    <a class="button" href="mailto:contact@villeneuvedascq.fr?subject=Alerte%20urgente%20%E2%80%93%20Situation%20des%20mineurs%20isol%C3%A9s%20apr%C3%A8s%20la%20fin%20du%20plan%20grand%20froid&body=Bonjour%2C%0A%0AJe%20vous%20envoie%20ce%20mail%20pour%20vous%20interpeller%20sur%20la%20situation%20tr%C3%A8s%20pr%C3%A9occupante%20des%20mineurs%20isol%C3%A9s%20en%20recours%20%C3%A0%20Lille%20suite%20%C3%A0%20la%20fin%20du%20plan%20grand%20froid.%0AAujourd%E2%80%99hui%2C%20comme%20vous%20le%20savez%20surement%2C%2044%20jeunes%20sont%20actuellement%20h%C3%A9berg%C3%A9s%20pour%20la%20nuit%20dans%20des%20gymnases%20%C3%A0%20Fives%20et%20Lambersart.%20Cependant%20avec%20la%20fin%20du%20plan%20grand%20froid%2C%20%C3%A0%20priori%20ce%20mercredi%2004%20f%C3%A9vrier%2C%20ils%20ne%20savent%20pas%20o%C3%B9%20ils%20pourront%20dormir%20les%20jours%20suivants.%0ANous%20sommes%20face%20%C3%A0%20une%20situation%20in%C3%A9dite%20et%20d%E2%80%99une%20extr%C3%AAme%20gravit%C3%A9%20car%2C%20en%20effet%2C%20ce%20serait%20la%20premi%C3%A8re%20fois%20en%20plus%20de%20cinq%20ans%20que%20la%20pr%C3%A9fecture%20et%20les%20communes%20de%20la%20m%C3%A9tropole%20lilloise%20laissent%20un%20camp%20de%20jeunes%20mineurs%20se%20cr%C3%A9er%20en%20plein%20hiver%2C%20faute%20de%20solution.%0A%0ADe%20plus%2C%20la%20pr%C3%A9fecture%20laisse%20planer%20le%20doute%20sur%20la%20remise%20en%20place%20ou%20non%20du%20Plan%20Grand%20Froid.%20Chaque%20semaine%2C%20les%20jeunes%20se%20trouvent%20%C3%AAtre%20dans%20des%20situations%20stressantes%20et%20pleines%20d%27incertitudes%2C%20ne%20sachant%20pas%20s%E2%80%99ils%20seront%20accueillis%20pour%20la%20nuit%20ou%20forc%C3%A9s%20de%20dormir%20%C3%A0%20la%20rue%20depuis%20des%20semaines.%0AIl%20est%20tout%20simplement%20honteux%20que%20ces%20jeunes%20soient%20contraints%20de%20dormir%20dans%20des%20tentes%20en%20plein%20hiver%2C%20dans%20le%20froid%20et%20parfois%20sous%20la%20pluie%2C%20en%20sachant%20que%20dans%20nos%20villes%2C%20des%20b%C3%A2timents%20sont%20vides%20et%2Fou%20nonutilis%C3%A9s%20la%20nuit.%0A%0ALa%20mairie%20et%20la%20pr%C3%A9fecture%20ont%20le%20pouvoir%20de%20r%C3%A9quisitionner%20ces%20b%C3%A2timents%20vides%20et%20je%20suis%20dans%20le%20regret%20de%20constater%2C%20que%20depuis%20plus%20d%E2%80%99un%20mois%20d%C3%A9j%C3%A0%20et%20malgr%C3%A9%20de%20multiples%20interpellations%20et%20alertes%2C%20seule%20une%20mobilisation%20citoyenne%20a%20permis%20%C3%A0%20ces%20jeunes%20de%20passer%20l%E2%80%99hiver%20%C3%A0%20l%E2%80%99abri.%20%0A%C3%80%20ce%20jour%2C%20ni%20la%20pr%C3%A9fecture%20et%20ni%20les%20mairies%20concern%C3%A9es%2C%20n%E2%80%99ont%20aucune%20solution%20p%C3%A9renne.%0A%0AAinsi%2C%20je%20vous%20exhorte%20%C3%A0%20agir%20sans%20d%C3%A9lai%20pour%20garantir%20%C3%A0%20ces%20jeunes%20un%20h%C3%A9bergement%20digne%20et%20conforme%20aux%20lois%20de%20la%20R%C3%A9publique.%20Le%20respect%20des%20droits%20de%20l%E2%80%99enfant%20ne%20peut%20%C3%AAtre%20une%20option.%20Il%20en%20va%20de%20l%E2%80%99honneur%20de%20nos%20institutions%20et%20de%20la%20cr%C3%A9dibilit%C3%A9%20de%20notre%20engagement%20en%20faveur%20des%20droits%20humains.%0A%0AEn%20vous%20remerciant%20pour%20l%E2%80%99attention%20port%C3%A9e%20%C3%A0%20cette%20alerte%20urgente%2C%20je%20vous%20prie%20d%E2%80%99agr%C3%A9er%2C%20Madame%2C%20Monsieur%2C%20l%E2%80%99expression%20de%20ma%20consid%C3%A9ration%20respectueuse.%0A">
-      ✉️ Mairie de Villeneuve d'Ascq 
-    </a>
-  </div>
-  </ul>
-</div> Merci !
-
+  <p style="margin-top: 50px; font-size: 0.85rem; color: #888;">
+    Action citoyenne pour le respect des droits de l'enfant.
+  </p>
 
 </body>
 </html>
